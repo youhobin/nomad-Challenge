@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CH7.css">
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="number-form">
+        <div>
+            Generate a number between 0 and 
+            <input type="number" id="maxNumber">
+        </div>
+        <div>  
+            Guess the number: 
+            <input type="number" id="guessNumber">
+            <input type="submit" value="Play!">
+        </div>
+    </form>
+    <div id="numbercheck" class="hidden"></div>
+    <div id="match" class="hidden"></div>
+    <script src="CH7.js"></script>
+  </body>
+</html>
